@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.3)  14 SEP 2022 11:10
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.3)  14 SEP 2022 17:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1785,23 +1785,23 @@ Package hyperref Info: Link coloring ON on input line 35.
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
 * driver: xetex
-* paper: custom
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(45.5244pt, 450.9762pt, 45.5244pt)
-* v-part:(T,H,B)=(45.5244pt, 631.6512pt, 45.5244pt)
-* \paperwidth=542.025pt
-* \paperheight=722.7pt
-* \textwidth=450.9762pt
-* \textheight=631.6512pt
-* \oddsidemargin=-26.74559pt
-* \evensidemargin=-26.74559pt
-* \topmargin=-106.5555pt
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(72.26997pt, 700.5069pt, 72.26997pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=700.5069pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-73.12352pt
 * \headheight=61.74242pt
-* \headsep=18.06749pt
+* \headsep=11.38109pt
 * \topskip=10.0pt
-* \footskip=11.38109pt
+* \footskip=34.1433pt
 * \marginparwidth=61.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
@@ -1857,23 +1857,23 @@ Package biblatex Info: Reference segment=0 on input line 35.
 Package hyperref Info: Option `pageanchor' set `false' on input line 45.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
-* paper: custom
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(0.0pt, 542.025pt, 0.0pt)
-* v-part:(T,H,B)=(0.0pt, 722.7pt, 0.0pt)
-* \paperwidth=542.025pt
-* \paperheight=722.7pt
-* \textwidth=542.025pt
-* \textheight=722.7pt
+* h-part:(L,W,R)=(0.0pt, 597.50787pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 845.04684pt, 0.0pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=597.50787pt
+* \textheight=845.04684pt
 * \oddsidemargin=-72.26999pt
 * \evensidemargin=-72.26999pt
-* \topmargin=-152.0799pt
+* \topmargin=-145.3935pt
 * \headheight=61.74242pt
-* \headsep=18.06749pt
+* \headsep=11.38109pt
 * \topskip=10.0pt
-* \footskip=11.38109pt
+* \footskip=34.1433pt
 * \marginparwidth=61.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
@@ -1932,35 +1932,40 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 Chapter 1.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 68.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 84.
 [1
 
 
 ]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 213.
+(Font)              scaled to size 9.0pt on input line 255.
  [2]
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 215.
- [3]
-LaTeX Font Info:    Trying to load font information for U+ding on input line 32
-8.
+LaTeX Font Info:    Trying to load font information for U+ding on input line 33
+4.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
-)
-[4] (./群论.aux)
+) [3]
+[4]
+Chapter 2.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
+(Font)              scaled to size 9.0pt on input line 352.
+[5
+
+] (./群论.aux)
 Package rerunfilecheck Info: File `群论.out' has not changed.
-(rerunfilecheck)             Checksum: F742A9FC2A16DCAABEA871333C86DF6F;327.
+(rerunfilecheck)             Checksum: 151B27DF1789DFDDEC3FA68C9F0B1F25;462.
 Package logreq Info: Writing requests to '群论.run.xml'.
 \openout1 = `群论.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46652 strings out of 475748
- 1002725 string characters out of 5799184
- 1922385 words of memory out of 5000000
- 67026 multiletter control sequences out of 15000+600000
- 502013 words of font info for 100 fonts, out of 8000000 for 9000
+ 46704 strings out of 475748
+ 1006327 string characters out of 5799184
+ 1925566 words of memory out of 5000000
+ 67077 multiletter control sequences out of 15000+600000
+ 502021 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 103i,11n,109p,675b,1318s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,12n,109p,675b,1318s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 群论.pdf (6 pages).
+Output written on 群论.pdf (7 pages).

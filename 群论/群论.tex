@@ -21,14 +21,14 @@
 % 定理类环境：definition, theorem,lemma,corollary, proposition
 % 示例类环境：example,problem,exercise
 % 提示类环境：note
-% 结论类环境：conclusion,assumption,property,remark,solution
+% 结论类环境：conclusion,assumption,property,note,solution
 %%%% 默认图片 %%%%
 % \cover{~/图片/ElegantPicture/00.jpg} 
 %       以数字编号00到09,格式均为jpg, 源自https://pixabay.com/photos/
 % \logo{~/图片/ElegantPicture/logo.png} 
 %       目前有：logo.png,bnu.jpg,dzu.eps
 %
-\documentclass[math=mtpro2,lang=cn,color=green,device=pad]{elegantbook}
+\documentclass[math=mtpro2,lang=cn,color=green]{elegantbook}
 \usepackage{xeCJKfntef}
 \usepackage{float}
 %\usepackage[user=teacher]{cexam}
@@ -81,7 +81,9 @@
    \label{fig:group1}
 \end{figure}
 
-长方形群表示为：$\left\{ E , C_2, \sigma_x, \sigma_y  \right\}$ , 其中$O$点为其反演中心。
+\begin{note}
+长方形群表示为：$\left\{ E , C_2, \sigma_x, \sigma_y  \right\}$ 
+\end{note}
 
 \subsection{正方形}
 
@@ -99,7 +101,11 @@
    \label{fig:group2}
 \end{figure}
 
-正方形群表示为：$\left\{ E,C_4, C_2\equiv C_4^2, C_4^3\equiv C_4^{-1},\sigma_x,\sigma_{xy},\sigma_y, \sigma_{y\overline{x}} \right\}$
+\begin{note}
+正方形群表示为：$\left\{ E,C_4\equiv C_4^{-3}, C_2\equiv C_4^{-2}, C_4^3\equiv C_4^{-1},\sigma_x,\sigma_{xy},\sigma_y, \sigma_{y\overline{x}} \right\}$
+, 其中$O$点为其反演中心。
+\end{note}
+
 
 \subsection{群的阶}
 
@@ -333,6 +339,19 @@
 \begin{exercise}
    说明正三角形群不是阿贝尔群
 \end{exercise}
+
+
+\chapter{版本更新历史}
+
+根据北师大同学的反馈，我不断修正和完善《群论》笔记，本章记录同学反馈的历史。
+
+\newcommand{\fankui}[3]{
+   \textcolor{red}{【#1】}\textcolor{blue}{#2}同学#3,感谢反馈！
+}
+
+\datechange{2022/09/14}{版本V1.0发布}
+
+\fankui{2022-09-14}{成珈仪}{发现输入错误}
 
 \end{document}
 
